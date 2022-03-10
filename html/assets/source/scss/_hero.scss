@@ -1,0 +1,39 @@
+
+    // hero section
+
+    .hero {
+        width: 100%;
+        height: 1051px;
+        // border: 1px solid red;
+        background-image : url('#{$img-path}/bg-hero.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .hero-right-col {
+
+        margin-left: 623px;
+
+    }
+
+    .hero_contain {
+
+        .hero_contain-top {
+            font-size: 44px;
+            margin-top: 138px;
+            color: $black;
+            line-height: 48px;
+            font-family: 'Yeseva One', cursive;
+        }
+
+        .hero_contain-bottom {
+
+            font-size: 22px;
+            margin-top: 60px;
+            color: $black;
+            line-height: 36px;
+            font-family: $sw-font;
+        }
+
+    }

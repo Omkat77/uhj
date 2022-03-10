@@ -1,0 +1,81 @@
+/**_variables.scss
+SCSS file for all varibles.
+@file _variables.scss
+@path /assets/scss/_variables.scss
+@version 2022-02-02
+*/
+
+@font-face{
+    font-family: swiz;
+    src:url("../../../fonts/swi/swis721_cn_bt/SW721BCI.ttf");
+    src:url("../../../fonts/swi/swis721_cn_bt/Swiss721BoldCondensedBT.ttf");
+    src: url("../../../fonts/swi/swis721_cn_bt/Swiss721CondensedBT.ttf");
+    src: url("../../../fonts/swi/swis721_cn_bt/swiss/721/bold/condensed/bt.ttf");
+ 
+ 
+ }
+
+
+/* Font family */
+$base-font: 'Poppins',
+sans-serif;
+$sw-font:'swiz';
+$body-bg: #FFFFFF;
+$body-default:#F0F6FC;
+
+/* Colors variables */
+
+$white: #FFFFFF !default;
+$primary:#6905C6;
+$black:#000000;
+$primary-light:#cbb0ed;
+$orange-yellow:#F99325;
+$light-black:#212121;
+
+
+//$theme-colors: ("primary": #0074d9, "danger": #ff4136);
+
+/* Transition speeds variables */
+
+$trans-slow: 0.6s;
+$trans-med: 0.4s;
+$trans-fast: 0.2s;
+
+/* Box shadow variables */
+
+$normal-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+$header-shadow:0 3px 6px #00000029;
+$primary-shadow: 0 3px 6px #00000014;
+
+/* Radius variables */
+
+$radios:100px;
+$radios-5:5px;
+$radius-15:15px;
+$radius-50:50%;
+$radius-24:24px;
+$radius-30:30px;
+
+
+/* Images path variable */
+
+$img-path:"../images";
+
+// Breakpoints variables
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl:1400px;
+
+
+// Icons
+$icomoon-font-family: "icomoon" !default;
+$icomoon-font-path: "../fonts/icomoon" !default;
+
+$icon-quote: "\e905";
+$icon-letter: "\e900";
+$icon-map: "\e901";
+$icon-facebook: "\e902";
+$icon-twitter: "\e903";
+$icon-youtube: "\e904";

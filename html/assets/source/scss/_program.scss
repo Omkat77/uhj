@@ -1,0 +1,105 @@
+ //program
+  .program {
+    width: 100%;
+    height: 1043px;
+    background-color: #F99325;
+}
+
+.program-row{
+    width: 100%;
+    display: flex;
+}
+.program-left-col{
+    width: 38%;
+}
+.outer-programinfo {
+    // width: 623px;
+      width: 38%;
+    height: 1043px;
+    display: flex;
+
+    align-items: center;
+
+}
+
+.program-info {
+
+    border: 16px solid #E68221;
+    padding: 115px 58px 120px 69px;
+
+    h6 {
+        font-size: 30px;
+        font-family: 'Yeseva One', cursive;
+
+        color: $black;
+    }
+
+    p {
+       
+        margin-top: 62px;
+        font-family: $sw-font;
+        font-size: 17px;
+        color: $black;
+    }
+}
+
+
+
+.program-right-col{
+
+width: 62%;
+    
+}
+.tree-wrap{
+    position: absolute;
+    width: 61%;
+    margin-top: 299px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+//Patener
+ .Patener {
+
+    // height: 176px;
+    background: $light-black;
+}
+
+.Patener-row {
+
+    display: flex;
+}
+.patner-warp{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.Patener-col-left {
+    width: 25%;
+
+    p {
+        font-size: 34px;
+        color: $white;
+        text-transform: uppercase;
+        align-self: center;
+        // margin-top: 52px;
+
+    }
+}
+
+.Patener-col-right {
+    width: 70%;
+    margin-left: 53px;
+
+ 
+
+}
+.patner-fig {
+    display: flex;
+    justify-content: space-evenly;
+}

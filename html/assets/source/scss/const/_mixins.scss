@@ -1,0 +1,131 @@
+/*_mixins.scss
+SCSS file for all mixin elements.
+
+@file _mixins.scss
+@path /assets/scss/_mixins.scss
+@version 2022-02-02
+*/
+// Mixins for flex
+
+@mixin flexproperties {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex {
+    display: flex;
+    align-items: center;
+}
+
+// / Breakpoint handling /
+
+// @mixin sm {
+//     @media (min-width: #{$sm}) {
+//         @content;
+//     }
+// }
+
+// @mixin md {
+//     @media (min-width: #{$md}) {
+//         @content;
+//     }
+// }
+
+// @mixin lg {
+//     @media (min-width: #{$lg}) {
+//         @content;
+//     }
+// }
+
+// @mixin xl {
+//     @media (min-width: #{$xl}) {
+//         @content;
+//     }
+// }
+
+// @mixin xxl {
+//     @media (min-width: #{$xxl}) {
+//         @content;
+//     }
+// }
+
+@mixin sm {
+    @media (max-width: #{$sm}) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media (max-width: #{$md}) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media (max-width: #{$lg}) {
+        @content;
+    }
+}
+
+@mixin xl {
+    @media (max-width: #{$xl}) {
+        @content;
+    }
+}
+
+@mixin xxl {
+    @media (max-width: #{$xxl}) {
+        @content;
+    }
+}
+
+/* Placeholder css property */
+@mixin placeholder {
+    &::placeholder {
+        @content;
+    }
+
+    &:-ms-input-placeholder {
+        @content;
+    }
+
+    &::-ms-input-placeholder {
+        @content;
+    }
+}
+
+/* fadeIn and fadeOut css property end */
+/* hover, focus, active css property Begin */
+@mixin hover {
+    &:hover {
+        @content;
+    }
+}
+
+@mixin focus {
+    &:focus {
+        outline: 2px dashed transparent;
+        @content;
+    }
+}
+
+@mixin hover-focus {
+
+    &:hover,
+    &:focus {
+        @content;
+    }
+}
+
+@mixin hover-focus-active {
+
+    &:hover,
+    &:focus,
+    &.active {
+        @content;
+    }
+}
+
+
+/* hover, focus, active css property end*/

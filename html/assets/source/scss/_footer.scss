@@ -1,0 +1,94 @@
+/**
+_footer.scss
+SCSS file for footer
+
+@file _footer.scss
+@path /assets/scss/_footer.scss
+@version 2022-02-14
+*/
+footer {
+    .footer {
+        width: 100%;
+        height: 600px;
+        background-image : url('#{$img-path}/footer-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        padding: 7px 0;
+        // height: 770px;
+        position: relative;
+    }
+
+    .overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+
+    .footer-row {
+        margin-top: 154px;
+
+        .footer-top-col {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 18px;
+
+            h5 {
+                font-size: 50px;
+                font-family: 'Yeseva One', cursive;
+                color: $white;
+                font-weight: 100;
+                align-self: center;
+            }
+
+            .hede-col {
+                color: $orange-yellow;
+            }
+
+            p {
+
+                font-size: 15px;
+                color: $white;
+                // margin-top: 18px;
+                font-weight: 700;
+                font-family: $sw-font;
+
+            }
+
+            .btn1 {
+                margin-top: 22px;
+            }
+
+        }
+
+
+        .footer-bottom-col {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 200px;
+
+            .btn2 {
+                background: none;
+                color: $white;
+                background: black;
+                border-color: $white;
+            }
+
+            p {
+
+                font-size: 22px;
+                color: $white;
+                margin-top: 18px;
+                font-weight: 700;
+                font-family: $sw-font;
+
+            }
+        }
+    }
+}
+
+/* Footer css end */

@@ -1,0 +1,23 @@
+// Style for Common button design
+
+.btn{
+    background-color: $orange-yellow;
+    color:$black;
+    border-radius: $radius-15;
+    display: inline-block;
+    padding: 19px 73px;
+    text-align: center;
+    transition: background-color $trans-med ease 0s, color $trans-med ease 0s;
+    border: 1px solid $primary; 
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+
+
+    @include hover-focus{
+        text-decoration: none;
+        background-color: $white;
+        color: $primary;
+    }
+
+}
